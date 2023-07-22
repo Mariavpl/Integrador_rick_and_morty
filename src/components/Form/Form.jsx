@@ -27,7 +27,7 @@ export default function Form(props) {
       setUserData({ ...userData, [e.target.name]: e.target.value });
     }
 
-    // Solo para mostrar la validación en tiempo real (opcional)
+    
     setErrors(validation(isRegistering ? registrationData : userData));
   }
 
@@ -37,7 +37,7 @@ export default function Form(props) {
     if (isRegistering) {
       const registrationErrors = validation(registrationData);
 
-      // Verificar si la contraseña cumple con los requisitos
+     
       if (!registrationErrors.password && registrationData.password.length >= 6 && /\d/.test(registrationData.password)) {
         props.register(registrationData);
       } else {
