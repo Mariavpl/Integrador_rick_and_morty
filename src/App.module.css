@@ -1,0 +1,24 @@
+.conteiner{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   padding-bottom: 0%;
+ }
+
+.nav {
+   background-color: brown;
+   padding: 1em;
+   display: flex;
+   flex-direction: row;
+   justify-content: end;
+   margin: 1em;
+}
+
+.imagen{
+   width:100%;
+   height: 100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: absolute;
+   background-image: url( "https://ae01.alicdn.com/kf/HTB1ittBfuuSBuNjy1Xcq6AYjFXag/Poster-impreso-en-alta-definici-n-SHROOM-mundo-RICK-y-MORTY-lienzo-de-un-conjunto.jpg_Q90.jpg_.webp" );
+}

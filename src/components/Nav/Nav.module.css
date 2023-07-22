@@ -1,0 +1,51 @@
+.nav {  
+    background-image: url('/public/img/Rick_and_Morty.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 100px;
+    flex-direction:row;
+    flex-flow: column;
+    align-items: flex-end;
+    justify-content:flex-start;
+    
+    position: static;
+    font-size: small;
+    color: rgb(140,244,44); 
+    margin: 5px;   
+}
+
+.home {
+    font-size: small;
+    color: rgb(140,244,44); 
+    margin: 5px;   
+}
+.home:hover {
+    font-weight: bolder;
+}
+
+.isActive {
+    font-weight: bolder;
+    color: rgb(140,244,44);
+    padding: 5px;
+}
+
+
+.button {
+    margin-top: 18px;
+    font-weight: bolder;
+    border-radius: 10%;
+    background-color: rgb(140,244,44);
+    color: rgb(0, 0, 0);
+    width: 75px;
+    margin-right: 5px;
+}
+  .button:hover {
+    background-color: rgb(23, 33, 42);
+    color: rgb(140,244,44);
+    
+    box-shadow: 1px 1px rgb(255, 255, 255);
+  }
+  .button:active {
+    box-shadow: 2px 2px rgb(0, 0, 0);
+  }

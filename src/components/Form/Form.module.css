@@ -1,0 +1,77 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: rgb(140, 244, 44);
+  font-weight: bold;
+}
+
+.login2 {
+ display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(23, 33, 42);
+  width: 400px; 
+  padding: 20px; 
+  border-radius: 10px;
+}
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.input {
+  flex: 2;
+  padding: 5px;
+  color: rgb(2, 2, 2);
+  text-align: right; 
+}
+
+.label {
+  flex: 1;
+  font-weight: bold;
+}
+
+.button {
+  font-weight: bolder;
+  border-radius: 10%;
+  background-color: rgb(140, 244, 44);
+  color: rgb(0, 0, 0);
+  width: 150px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(23, 33, 42);
+  color: rgb(140, 244, 44);
+  box-shadow: 1px 1px rgb(255, 255, 255);
+}
+
+.button:active {
+  box-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+.warning {
+  border: solid red 1px;
+  border-radius: 0.2em;
+  background-color: rgb(248, 170, 170);
+}
+
+.warning:focus {
+  background-color: white;
+}
+
+.danger {
+  font-size: 11px;
+  color: white;
+  margin-left: 10em;
+}
+
+.login-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

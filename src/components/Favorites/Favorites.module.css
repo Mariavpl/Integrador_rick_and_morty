@@ -1,0 +1,22 @@
+.cards {
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content:space-evenly;
+    /* color: wheat; */
+    flex-wrap: wrap;
+}
+
+.select {
+    margin: 15px;
+    background-color: rgb(23, 33, 42);
+    color: rgb(140,244,44);
+    height:min-content;
+    font-weight: bold ;
+}
+
+.span {
+    background-color: rgb(23,33,42);
+    color: white;
+}
+ 
